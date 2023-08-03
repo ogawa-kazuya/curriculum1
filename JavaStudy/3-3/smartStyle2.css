@@ -1,0 +1,41 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media  screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+    }
+    .header {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+    }
+    
+.main-box {
+    display: block;
+}
+
+    .item {
+
+    }
+
+    .side {
+        width: 200px;
+        height: 100px;
+    }
+    
+    .content {
+        width: 200px;
+    }
+   
+    .content-box {
+        width: 100px;
+    }
+
+    .fram {
+        width: 200px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+
+}
